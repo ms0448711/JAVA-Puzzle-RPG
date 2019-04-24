@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="816.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="invImage" fitHeight="624.0" fitWidth="816.0" pickOnBounds="true" preserveRatio="true" />
+      <Rectangle fx:id="invFrame" arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="60.0" stroke="#b8fff9" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="4.0" translateX="20.0" translateY="180.0" width="390.0" />
+      <Text fill="WHITE" layoutX="70.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="道具欄">
+         <font>
+            <Font name="Arial" size="40.0" />
+         </font>
+      </Text>
+      <Text fx:id="i0" fill="WHITE" layoutX="40.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="329.3115234375">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="i1" fill="WHITE" layoutX="440.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="329.3115234375">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="i2" fill="WHITE" layoutX="40.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="329.3115234375">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="i3" fill="WHITE" layoutX="440.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="329.3115234375">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="i4" fill="WHITE" layoutX="40.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="329.3115234375">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="i5" fill="WHITE" layoutX="440.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="329.3115234375">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="i6" fill="WHITE" layoutX="40.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="329.3115234375">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="i7" fill="WHITE" layoutX="440.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="329.3115234375">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="itemText" fill="WHITE" layoutX="99.0" layoutY="500.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="621.65576171875">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
